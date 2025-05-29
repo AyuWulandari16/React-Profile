@@ -3,8 +3,8 @@ import { listProyek } from "../data";
 
 const Project = () => {
   return (
-    <section id="project">
-      <div className="project mt-32 py-10">
+    <section id="project" className="pt-6">
+      <div className="project mt-16 py-10">
         <h1 className="text-center text-4xl font-bold mb-2">Proyek</h1>
         <p className="text-base/loose text-center opacity-50">
           Beberapa proyek yang telah saya buat.
@@ -32,7 +32,7 @@ const Project = () => {
                 <div className="mt-auto pt-6 text-center">
                   <a
                     href="#"
-                    className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"
+                    className="text-white px-4 py-2 block rounded-md border border-violet-600 bg-violet-600 hover:bg-transparent transition-all"
                   >
                     Lihat Website
                   </a>

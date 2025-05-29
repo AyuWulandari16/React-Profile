@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact">
-      <div className="contact mt-32 sm:p-10 p-0">
+    <section id="contact" className="pt-6">
+      <div className="contact mt-16 sm:p-10 p-0">
         <h1 className="text-4xl mb-2 font-bold text-center">Contact</h1>
         <p className="text-base/loose text-center mb-10 opacity-50">
           Mari terhubung dengan saya
@@ -52,8 +52,7 @@ const Contact = () => {
             <div className="text-center">
               <button
                 type="submit"
-                className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer 
-            border border-zinc-600 hover:bg-violet-600"
+                className="w-full cursor-pointer text-white px-4 py-2 rounded-md border border-violet-600 bg-violet-600 hover:bg-transparent transition-all"
               >
                 Kirim Pesan
               </button>

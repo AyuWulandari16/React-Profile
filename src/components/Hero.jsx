@@ -3,8 +3,8 @@ import DataImage from "../data";
 
 const Hero = () => {
   return (
-    <section id="beranda">
-      <div className="hero grid md:grid-cols-2 items-center pt-4 xl:gap-0 gap-6 grid-cols-1">
+    <section id="beranda" className="pt-10">
+      <div className="hero mt-16 py-10 grid md:grid-cols-2 items-center pt-4 xl:gap-0 gap-6 grid-cols-1">
         <div>
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img
@@ -12,27 +12,30 @@ const Hero = () => {
               alt="Hero Thumbnail"
               className="w-10 rounded-md"
             />
-            <q>Kode yang indah, lahir dari ketekunan.😁</q>
+            <q>Detail adalah kunci kualitas dan antarmuka hebat. 💻🧪</q>
           </div>
-          <h1 className="text-4xl/tight font-bold mb-6">
+
+          <h1 className="text-4xl/tight font-bold mb-4">
             Hi, Saya Ayu Wulandari
           </h1>
-          <p className="text-base/loose mb-6 opacity-50">
-            Saya mempunyai ketertarikan dalam bidang Programming dan Designer,
-            terutama pada pembuatan Website dan Desain seperti Poster, Pamflet
-            serta Banner, ketertarikan pada bidang ini sudah berlangsung lebih
-            dari 4 Tahun untuk semua Bidang.
+
+          <p className="text-base/loose mb-6 opacity-70">
+            Saya memiliki pengalaman lebih dari 4 tahun dalam bidang Frontend
+            Development dan Software Quality Assurance. Keahlian saya mencakup
+            pembuatan website yang responsif, user-friendly, serta melakukan
+            pengujian perangkat lunak secara menyeluruh untuk memastikan
+            kualitas aplikasi tetap optimal.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
               href="#"
-              className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
+              className="text-white px-4 py-2 rounded-md border border-violet-600 bg-violet-600 hover:bg-transparent transition-all"
             >
               Download CV <i className="ri-download-line ri-lg"></i>
             </a>
             <a
               href="#project"
-              className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
+              className="text-white px-4 py-2 rounded-md border border-violet-600 bg-transparent hover:bg-violet-600 transition-all"
             >
               Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i>
             </a>
