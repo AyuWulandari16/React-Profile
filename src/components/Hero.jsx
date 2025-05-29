@@ -3,12 +3,12 @@ import DataImage from "../data";
 
 const Hero = () => {
   return (
-    <div className="hero  grid md:grid-cols-2 items-center pt-4 xl:gap-0 gap-6 grid-cols-1">
+    <div className="hero grid md:grid-cols-2 items-center pt-4 xl:gap-0 gap-6 grid-cols-1">
       <div>
         <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
           <img
             src={DataImage.HeroImage}
-            alt="Hero Image"
+            alt="Hero Thumbnail"
             className="w-10 rounded-md"
           />
           <q>Kode yang indah, lahir dari ketekunan.😁</q>
@@ -34,11 +34,15 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <img
-        src={DataImage.HeroImage}
-        alt="Hero Image"
-        className="w-[500px] md:ml-auto"
-      />
+
+      {/* Gambar di sebelah kanan */}
+      <div className="flex justify-center md:justify-end">
+        <img
+          src={DataImage.HeroImage}
+          alt="Hero Image"
+          className="w-[400px] rounded-xl shadow-lg transition-transform duration-300 hover:scale-105"
+        />
+      </div>
     </div>
   );
 };
