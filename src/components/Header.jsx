@@ -8,7 +8,7 @@ const Header = () => {
     { name: "Home", id: "beranda" },
     { name: "About", id: "tentang" },
     { name: "Projects", id: "project" },
-    { name: "Reviews", id: "contact" },
+    { name: "Contact", id: "contact" },
   ];
 
   return (
